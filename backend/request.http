@@ -1,0 +1,16 @@
+//Fabriquer des requêtes Http avec extention (Rest client)
+GET  http://localhost:3000/api/sauces 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImV4ZW1wbGVAZ21haWwuY29tIiwiaWF0IjoxNjc3NDc5Njk0LCJleHAiOjE2Nzc1NjYwOTR9.18DE0vgm5KPAc3-smBZ5DB1LejLDDMpsh66xlJ-7ksw
+#####
+POST   http://localhost:3000/api/auth/signup
+
+{"email": "exemple@gmail.com", "password": "123456"}
+
+########
+POST  http://localhost:3000/api/sauces/63fc328401cc7f4d70e0642b/like
+
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImV4ZW1wbGVAZ21haWwuY29tIiwiaWF0IjoxNjc3NDc5Njk0LCJleHAiOjE2Nzc1NjYwOTR9.18DE0vgm5KPAc3-smBZ5DB1LejLDDMpsh66xlJ-7ksw
+
+{"userId": "exemple@gmail.com", "like": "2"}
+
+
